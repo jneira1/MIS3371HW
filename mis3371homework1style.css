@@ -1,0 +1,75 @@
+ /* CSS Styles for the Registration Page of Harmony Health Clinic */
+
+/* Overall body styling to set the background, font, and spacing for the entire page */
+
+body {
+    font-family: "Times New Roman", Times, serif;
+
+
+    background-color: rgb(173, 216, 230);
+    color: black;
+}
+
+/* Styling for the banner and logo, including layout and visual elements */
+.banner {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo-small {
+    width: 125px; 
+    vertical-align: middle;
+}
+
+h1 {
+    text-decoration: underline;
+    font-size: 3.0em;
+    color: black;
+}
+
+hr {
+    text-decoration: underline;
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+/* Styling for the form table, including spacing, borders, and alignment */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-spacing: 5px;
+}
+
+.required {
+    color: red;
+}
+
+/* Styling for the footer section, including layout, colors, and fonts */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(173, 216, 230); 
+}
+
+footer a {
+    color: rgb(173, 216, 230);
+    text-decoration: none;
+
+}
+
+.contact-link {
+    text-decoration: underline; 
+    font-weight: bold;
+    color: rgb(14, 14, 14); 
+}
+.contact-link:hover {
+    background-color: rgb(173, 216, 230); 
+    color: white; 
+}
+.footer-logo {
+    width: 175px; 
+    margin: 10px auto;
+    display: block;
+}
